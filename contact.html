@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="navbar">
+                <div class="logo" data-aos="zoom-out" data-aos-duration="1200"><a href="#">Contact Me</a></div>
+                <ul class="menu">
+                    <li data-aos="zoom-in-left" data-aos-duration="1200" data-aos-delay="150"><a href="index.html">Home</a></li>
+                    <li data-aos="zoom-in-left" data-aos-duration="1200" data-aos-delay="300"><a href="family.html">Family</a></li>
+                    <li data-aos="zoom-in-left" data-aos-duration="1200" data-aos-delay="450"><a href="education.html">Education</a></li>
+                    <li data-aos="zoom-in-left" data-aos-duration="1200" data-aos-delay="600"><a href="hobbies.html">Hobbies</a></li>
+                    <li data-aos="zoom-in-left" data-aos-duration="1200" data-aos-delay="750"><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <section class="contact" id="contact">
+        <div class="content">
+            <div class="contact-form" data-aos="flip-up" data-aos-duration="1200" data-aos-delay="1300">
+                <h2>Get in Touch</h2>
+                <form action="#">
+                    <div class="input-box">
+                        <input type="text" required="required">
+                        <span>Name</span>
+                    </div>
+                    <div class="input-box">
+                        <input type="email" required="required">
+                        <span>Email</span>
+                    </div>
+                    <div class="input-box">
+                        <textarea required="required"></textarea>
+                        <span>Message</span>
+                    </div>
+                    <div class="input-box">
+                        <input type="submit" value="Send">
+                    </div>
+                </form>
+            </div>
+
+            <div class="social-media" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="1450">
+                <h3>Follow Me</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <div class="map" data-aos="zoom-out" data-aos-duration="1200" data-aos-delay="1750">
+                <h3>Find Me Here</h3>
+                <img src="img/map.jpg" alt="Static map of my location">
+            </div>
+        </div>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({offset: 0});
+    </script>
+</body>
+</html>
+
